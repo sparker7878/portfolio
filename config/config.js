@@ -4,7 +4,7 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Sydney Parker",
 	links: [
 		{
 			title: "About",
@@ -25,8 +25,8 @@ export const navigation = {
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Welcome! I'm Sydney!",
+	description: "UX/UI Designer • Frontend Developer • Technical Writer",
 	image: profile.src,
 	buttons: [
 		{
@@ -36,75 +36,48 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://docs.google.com/document/d/18QrcCdhRJ-VwDUWsfALm-MTTtfTWg61FFMmT0JCwjig/edit?usp=sharing",
 			isPrimary: false,
 		},
 	],
 }
 
 export const about = {
-	title: "Who I am",
+	title: "About Me",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"I'm a 23-year-old from Washington, DC. I attend George Mason University, where I'm earning my B.S. in Applied Computer Science with a concentration in Software Engineering in May 2022.",
+		"My career trajectory involves bridging the divide between sensible design and intuitive usability. I seek to combine my interests in frontend web development, user psychology, and digital design into a fruitful UX design career.",
+		"When I’m not programming, I focus on makeup artistry, music production, and creative writing. I also love to participate in designathons to keep my UX/UI skills fresh and challenged!",
 	],
 }
 
 export const work = {
-	title: "What I do",
+	title: "About My Work",
 	cards: [
 		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+			title: "UX/UI Design",
+			description: "I turn wireframes and sketches into high-fidelity prototypes using Adobe XD.",
 			icons: null,
 		},
 		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
+			title: "Frontend Development",
+			description: "I create responsive static websites using React.",
 			icons: null,
 		}
 	],
 }
 
+
 export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
-			icons: [
-				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
-				},
-			]
-		},
-		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
-			icons: [
-				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-				},
-			]
-		},
-		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+			title: "FloorSeats",
+			description: "A entertainment-streaming app that allows viewers to host virtual watch parties.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
+					link: "https://xd.adobe.com/view/850763bb-020a-435a-8dae-7a004b89822c-d054/screen/41a1e29d-728b-4383-81c4-54ba9e85454b",
 				},
 			]
 		},
@@ -112,54 +85,41 @@ export const projects = {
 }
 
 export const contact = {
-	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	title: "Contact Me",
+	description: "Feel free to contact me below or directly at sparker7878@gmail.com",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			link: "mailto:sparker7878@gmail.com",
 			isPrimary: true,
-		},
-		{
-			title: "Schedule Meeting",
-			link: "",
-			isPrimary: false,
-		},
+		}
 	]
 }
 
-// SEARCH ENGINE 
+// SEARCH ENGINE
 export const SEO = {
-	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	// 50 - 60 char
+	title: "Sydney Parker • UX/UI Design • Frontend Development",
+	description: "I specialize in UX/UI design and frontend web development.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "Sydney Parker",
+	description: "UX/UI Design • Frontend Development",
 	cards: [
 		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/",
+			title: "Website",
+			link: "https://sparker7878.github.io/portfolio",
 		},
 		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
+			title: "GitHub",
+			link: "https://github.com/sparker7878/",
 		},
 		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
-		},
-		{
-			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
-		},
-		{
-			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
+			title: "LinkedIn",
+			link: "https://www.linkedin.com/in/sydney-parker-uxui/",
 		},
 	]
 }
